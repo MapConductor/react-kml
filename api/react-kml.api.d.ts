@@ -353,4 +353,5 @@ interface KMLFeaturesProps {
 }
 declare function KMLFeatures({ states }: KMLFeaturesProps): null;
 
-export { DefaultKMLStyleProvider, KMLDefaults, type KMLDocument, KMLFeature, type KMLFeatureData, type KMLFeatureFingerPrint, type KMLFeatureProps, KMLFeatureState, KMLFeatures, type KMLFeaturesProps, type KMLFetchFunction, type KMLGeometry, type KMLHitTestResult, KMLLayer, type KMLLayerProps, KMLLayerState, type KMLLayerStyle, KMLLoader, type KMLNetworkLink, KMLParser, type KMLStyleProviderInterface, KMLTileRenderer, type LonLat, argbToCss, colorAlpha, colorArgb, colorBlue, colorGreen, colorRed, colorRgb, createKMLFeature };
+export { DefaultKMLStyleProvider, KMLDefaults, KMLFeature, KMLFeatureState, KMLFeatures, KMLLayer, KMLLayerState, KMLLoader, KMLParser, KMLTileRenderer, argbToCss, colorAlpha, colorArgb, colorBlue, colorGreen, colorRed, colorRgb, createKMLFeature };
+export type { KMLDocument, KMLFeatureData, KMLFeatureFingerPrint, KMLFeatureProps, KMLFeaturesProps, KMLFetchFunction, KMLGeometry, KMLHitTestResult, KMLLayerProps, KMLLayerStyle, KMLNetworkLink, KMLStyleProviderInterface, LonLat };
