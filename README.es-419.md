@@ -13,6 +13,12 @@ de datos KML grandes.
 El soporte para React Native aún no está disponible — por ahora este paquete es
 solo para web.
 
+## Demostración
+
+[![Puntos, líneas y un polígono KML sobre Tokio](https://raw.githubusercontent.com/MapConductor/react-kml/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/kml-layer/en)
+
+La [demo en vivo](https://demo-react.mapconductor.com/maplibre/kml-layer/en) dibuja con este paquete un documento KML con puntos, líneas y un polígono; toca un elemento para ver sus propiedades. El proveedor se cambia en la parte superior de la página. El código está en el [Quick start](./README.md#quick-start) del README en inglés.
+
 ## Características
 
 - Analiza `Point`, `LineString`, `LinearRing`, `Polygon` (con agujeros de
