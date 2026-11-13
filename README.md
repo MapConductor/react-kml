@@ -11,6 +11,12 @@ hit-testing. It shares the tile-rendering architecture of
 
 React Native support is not yet available — this package is web-only for now.
 
+## Demo
+
+[![KML points, lines and a polygon over Tokyo](https://raw.githubusercontent.com/MapConductor/react-kml/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/kml-layer/en)
+
+The [live demo](https://demo-react.mapconductor.com/maplibre/kml-layer/en) draws a KML document with points, lines and a polygon using this package; tap a feature to inspect its properties. The provider can be switched at the top of the page. The code is in the Quick start below.
+
 ## Features
 
 - Parses `Point`, `LineString`, `LinearRing`, `Polygon` (with
