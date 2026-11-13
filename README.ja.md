@@ -11,6 +11,12 @@ MapConductor React SDK 向けの KML レイヤー拡張です。OGC KML 2.2 ド�
 
 React Native 対応はまだありません — 現時点では Web 専用パッケージです。
 
+## デモ
+
+[![東京に重ねた KML の点・線・ポリゴン](https://raw.githubusercontent.com/MapConductor/react-kml/main/docs/images/demo.jpg)](https://demo-react.mapconductor.com/maplibre/kml-layer/en)
+
+[ライブデモ](https://demo-react.mapconductor.com/maplibre/kml-layer/en)では、このパッケージで点・線・ポリゴンを含む KML を描いています。図形をタップすると属性を表示します。プロバイダは画面上部で切り替えられます。コードは英語版 README の [Quick start](./README.md#quick-start) にあります。
+
 ## 特長
 
 - `Point` / `LineString` / `LinearRing` / `Polygon`（`innerBoundaryIs` の穴付き）/
